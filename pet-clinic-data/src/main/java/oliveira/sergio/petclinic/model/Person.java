@@ -1,4 +1,4 @@
-package oliveira.sergio.petclinic;
+package oliveira.sergio.petclinic.model;
 
 public class Person {
 
