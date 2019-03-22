@@ -1,8 +1,8 @@
-package oliveira.sergio.springpetclinic.model;
+package oliveira.sergio.petclinic;
 
 public class PetType {
 
-   String name;
+    String name;
 
     public String getName() {
         return name;

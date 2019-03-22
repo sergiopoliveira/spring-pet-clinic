@@ -1,4 +1,4 @@
-package oliveira.sergio.springpetclinic.model;
+package oliveira.sergio.petclinic;
 
 import java.time.LocalDate;
 

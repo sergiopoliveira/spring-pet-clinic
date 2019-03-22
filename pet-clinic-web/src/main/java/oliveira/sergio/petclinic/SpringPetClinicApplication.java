@@ -1,4 +1,4 @@
-package oliveira.sergio.springpetclinic;
+package oliveira.sergio.petclinic;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
