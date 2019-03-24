@@ -1,12 +1,7 @@
 package oliveira.sergio.petclinic.service;
 
-import java.util.Set;
+import oliveira.sergio.petclinic.model.Vet;
 
-public interface VetService {
+public interface VetService extends CrudService<Vet, Long> {
 
-    VetService findById(Long id);
-
-    VetService save(VetService vet);
-
-    Set<VetService> findAll();
 }
