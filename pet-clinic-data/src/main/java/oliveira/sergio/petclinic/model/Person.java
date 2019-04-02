@@ -1,6 +1,6 @@
 package oliveira.sergio.petclinic.model;
 
-import lombok.Builder;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -10,11 +10,12 @@ import javax.persistence.MappedSuperclass;
 
 @Getter
 @Setter
+@AllArgsConstructor
 @NoArgsConstructor
 @MappedSuperclass
 public class Person extends BaseEntity {
 
-    @Builder
+
     public Person(Long id, String firstName, String lastName) {
         super(id);
         this.firstName = firstName;
