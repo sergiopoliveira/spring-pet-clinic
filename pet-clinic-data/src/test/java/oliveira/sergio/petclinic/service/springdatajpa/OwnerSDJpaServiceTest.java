@@ -82,7 +82,7 @@ class OwnerSDJpaServiceTest {
 
         Owner owner = service.findById(1L);
 
-        assertNull(owner);
+        assertNotEquals(1L, owner.getId());
     }
 
     @Test
